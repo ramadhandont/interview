@@ -17,15 +17,17 @@
     - sales:329
     - check:0
 ```  
-- update(put) -> untuk mengedit data (http://localhost:8000/penjualan/{id})
-    <br/>
+- update(put) -> untuk mengedit data ```http://localhost:8000/penjualan/{id}```
+```
     Parameter (contoh)
     - quantity:1
     - sales:329
-    - check:1 
-- delete soft(put) -> untuk mengapus data dari tampilan(didatabase tidak terdelete) (http://localhost:8000/penjualan/del/{id})
-    <br/>
+    - check:1
+``` 
+- delete soft(put) -> untuk mengapus data dari tampilan(didatabase tidak terdelete) ```http://localhost:8000/penjualan/del/{id}```
+```
     Parameter (contoh)
     - del:1
-- delete permanen(delete) -> untuk mengapus data dari database(hilang record) (http://localhost:8000/penjualan/4)
+```
+- delete permanen(delete) -> untuk mengapus data dari database(hilang record) ```http://localhost:8000/penjualan/4```
 
