@@ -12,6 +12,8 @@
 ```php
 (http://localhost:8000/penjualan)
 ``` 
+
+`$ npm install marked`
 ```bash
     Parameter (contoh)
 ```
