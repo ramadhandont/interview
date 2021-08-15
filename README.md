@@ -6,22 +6,17 @@
 - silahkan import file interview.json kedalam postman untuk melakukan pengetesan program
 
 ## Run Program by Postman
-- get_all(get) -> untuk melihat all penjualan (http://localhost:8000/penjualan) 
-- get_id(get) -> untuk melihat salah satu penjualan (http://localhost:8000/penjualan/{id})
-- saveAdd(post) -> untuk menambah penjualan 
-```php
-(http://localhost:8000/penjualan)
-``` 
-
-$ npm install marked
-```bash
-    Parameter (contoh)
+- get_all(get) -> untuk melihat all penjualan ```http://localhost:8000/penjualan``` 
+- get_id(get) -> untuk melihat salah satu penjualan ```http://localhost:8000/penjualan/{id}```
+- saveAdd(post) -> untuk menambah penjualan ```(http://localhost:8000/penjualan)``` 
 ```
+    Parameter (contoh)
     - barang:6
     - mail:rama@gmail.com
     - quantity:1
     - sales:329
-    - check:0  
+    - check:0
+```  
 - update(put) -> untuk mengedit data (http://localhost:8000/penjualan/{id})
     <br/>
     Parameter (contoh)
